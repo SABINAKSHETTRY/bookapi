@@ -90,3 +90,61 @@ button{
   background-color: #FCE2DB;
   box-shadow: 20px 25px 40px #FBC5C5 ;
 }
+
+.title, .author, .ratings {
+  width:300px;
+  margin-left:50px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #FBC5C5 ;
+    
+  }
+  .imagess>img{
+    height:33px;
+    width:30px;
+  }
+
+  .booksholder{
+    grid-template-columns: repeat(1,1fr);
+    margin-top:60px;
+    row-gap: 3px;
+    background-color:#f3bfbf;
+    border-radius: 10px;
+
+  }
+  .bookholder{
+    background-color: #f1cece ;
+    width:300px;
+    border-radius: 10px;
+
+  }
+  .descriptionhold img{
+    
+    height:180px;
+    width:180px;
+    }
+  .descriptions{
+      width:320px;
+      font-size: 14px;
+       color:black;
+       font-weight: 500;
+       word-spacing: 5px;
+      
+    }
+  .title, .author, .ratings, .descriptions{
+      width:250px;
+      
+    }
+  .descriptions {
+      width:290px;
+      margin-left:40px;
+      font-size: 15px;
+    }
+    .bookname{
+      margin-left: 10px;
+    }
+   
+   
+}
