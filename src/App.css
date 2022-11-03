@@ -1,0 +1,92 @@
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #377D71;
+  gap:20px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; 
+ 
+}
+.imagess>img{
+  height:43px;
+  width:50px;
+
+}
+.displays img{
+  height:260px;
+  width:260px;
+}
+.displays{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+}
+button{
+  outline: none;
+  border:none;
+  height:35px;
+  width:130px;
+  background-color: #FFF5E4;
+  border-radius: 7px;
+  cursor:pointer;
+}
+
+
+
+
+.bookholder:hover{
+  background-color: #FCE2DB;
+  box-shadow: 15px 3px 30px #FBC5C5 ;
+}
+.booksholder{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ row-gap:30px;
+ margin-top:80px;
+
+}
+.bookholder{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  width:fit-content;
+  
+  height:360px;
+  
+}
+.descriptionhold{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFE6E6;
+  /* margin-top: 10px; */
+  gap:1px;
+  height:800px;
+  
+  
+  
+}
+.descriptions{
+  width:700px;
+  font-size: 18px;
+   color:black;
+   font-weight: 500;
+   word-spacing: 5px;
+  
+}
+.descriptionhold img{
+  /* margin-top: 5px; */
+  height:280px;
+  width:250px;
+ 
+}
+.descriptionhold img{
+  background-color: #FCE2DB;
+  box-shadow: 20px 25px 40px #FBC5C5 ;
+}
