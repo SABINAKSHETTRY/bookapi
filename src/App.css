@@ -46,7 +46,7 @@ button{
  display: grid;
  grid-template-columns: repeat(3,1fr);
  row-gap:30px;
- margin-top:80px;
+ margin-top:55px;
 
 }
 .bookholder{
@@ -54,9 +54,9 @@ button{
   justify-content: center;
   align-items:center;
   flex-direction: column;
-  width:fit-content;
+  width:260px;
   
-  height:360px;
+  height:440px;
   
 }
 .descriptionhold{
@@ -65,9 +65,9 @@ button{
   align-items: center;
   flex-direction: column;
   background-color: #FFE6E6;
-  /* margin-top: 10px; */
-  gap:1px;
-  height:800px;
+  margin-top: 80px;
+  /* gap:1px; */
+  /* height:100vh; */
   
   
   
